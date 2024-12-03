@@ -1,0 +1,22 @@
+1#Alex Pereira#LIGHT HEAVYWEIGHT#M#9-2-0 (W-L-D)#POATAN#1.65#São Bernardo do Campo, São Paulo, Brazil#1987-07-07#36#6'4#204.0 lbs#2012-03-31#7 KO wins#2 Decision wins#0 Submission wins
+2#Jamahal Hill#LIGHT HEAVYWEIGHT#M#12-1-0 (W-L-D)#SWEET DREAMS#2.30#United States#1991-05-19#32#6'4#204.5 lbs#2016.01.02#7 KO wins#5 Decision wins#0 Submission wins
+2#Yan Xiaonan#STRAWWEIGHT#F#17-3-0 (W-L-D)#MAGNUM#1.90#Los Angeles, California, USA#1990-05-14#34#5'9#170.0 lbs#2008-06-20#10 KO wins#4 Decision wins#1 Submission wins
+1#Zhang Weili#STRAWWEIGHT#F#24-3-9 (W-L-D)#LIONESS#1.35#London, England, UK#1988-02-20#36#6'3#265.0 lbs#2006-05-22#12 KO wins#7 Decision wins#1 Submission wins
+4#Justin Gaethje#LIGHTWEIGHT#M#18-4-2 (W-L-D)#BEAR#1.73#Toronto, Canada#1989-12-01#35#5'8#155.0 lbs#2007-06-05#11 KO wins#6 Decision wins#1 Submission wins
+3#Max Holloway#FEATHERWEIGHT#M#19-4-1 (W-L-D)#FALCON#1.75#Los Angeles, USA#1989-02-20#35#5'9#155.0 lbs#2007-03-31#11 KO wins#7 Decision wins#1 Submission wins
+2#Charles Oliveira#LIGHTWEIGHT#M#34-9-0 (W-L-D)#Do bronx#1.73#Brazil, Flavela#1994-08-15#31#5'8#175.0 lbs#2005-09-20#7 KO wins#3 Decision wins#12 Submission wins
+5#Arman Tsarukyan#LIGHTWEIGHT#M#18-4-2 (W-L-D)#HAWK#1.68#Rome, Italy#1988-05-10#36#5'6#135.0 lbs#2006-06-25#10 KO wins#7 Decision wins#1 Submission wins
+18#Bo Nickal#MIDDLEWEIGHT#M#16-3-1 (W-L-D)#SHARK#1.82#Chicago, USA#1989-10-20#35#6'0#185.0 lbs#2007-08-25#10 KO wins#5 Decision wins#1 Submission wins
+19#Cody Brundage#MIDDLEWEIGHT#M#15-2-0 (W-L-D)#HAWK#1.68#Berlin, Germany#1990-11-30#34#5'6#135.0 lbs#2008-12-05#8 KO wins#6 Decision wins#1 Submission wins
+5#Jan Błachowicz#LIGHT HEAVYWEIGHT#M#16-3-1 (W-L-D)#SHARK#1.82#Chicago, USA#1989-10-20#35#6'0#185.0 lbs#2007-08-25#10 KO wins#5 Decision wins#1 Submission wins	
+6#Aleksandar Rakić#LIGHT HEAVYWEIGHT#M#12-2-1 (W-L-D)#Ceribal KIller#1.80#Seattle, USA#1991-06-10#33#5'11#205.0 lbs#2009-05-25#7 KO wins#4 Decision wins#1 Submission wins
+5#Aljamain Sterling#BANTAMWEIGHT#M#19-3-0 (W-L-D)#FUNKMASTER#1.70#Uniondale, Pentovenia, Jamaica#1989-07-31#35#5'7#135.0 lbs#2011-02-20#7 KO wins#11 Decision wins#1 Submission wins
+6#Calvin Kattar#FEATHERWEIGHT#M#22-5-0 (W-L-D)#THE BOSTON FINISHER#1.80#Methuen, Massachusetts, USA#1988-03-26#36#5'11#145.0 lbs#2007-06-23#11 KO wins#10 Decision wins#1 Submission wins
+10#Kayla Harrison#BANTAMWEIGHT#F#10-0-0 (W-L-D)#JUDO KAYLA#1.73#Middletown, Ohio, USA#1990-07-02#34#5'8#145.0 lbs#2018-06-21#3 KO wins#7 Decision wins#0 Submission wins
+5#Holly Holm#BANTAMWEIGHT#F#14-5-0 (W-L-D)#THE PREACHER'S DAUGHTER#1.73#Albuquerque, New Mexico, USA#1981-10-17#43#5'8#135.0 lbs#2011-03-04#8 KO wins#6 Decision wins#0 Submission wins
+11#Jalin Turner#LIGHTWEIGHT#M#10-5-0 (W-L-D)#THE TARANTULA#1.91#San Bernardino, California, USA#1995-12-23#29#6'3#155.0 lbs#2014-08-02#7 KO wins#3 Decision wins#0 Submission wins
+14#Renato Moicano#LIGHTWEIGHT#M#15-4-1 (W-L-D)#MOICANO#1.80#Brasília, Brazil#1989-05-21#35#5'11#155.0 lbs#2010-02-27#2 KO wins#12 Decision wins#1 Submission wins
+12#Jéssica Andrade#STRAWWEIGHT#F#21-9-0 (W-L-D)#BATE ESTACA#1.55#Umuarama, Paraná, Brazil#1991-09-25#33#5'1#115.0 lbs#2011-09-06#8 KO wins#7 Decision wins#6 Submission wins
+17#Marina Rodriguez#STRAWWEIGHT#F#15-1-2 (W-L-D)#MARINA RODRIGUEZ#1.68#Florianópolis,Santa Catarina,Brazil#1987-04-29#37#5'6#115.0 lbs#2015-05-16#6 KO wins#8 Decision wins#8 Submission wins
+15#Bobby Green#LIGHTWEIGHT#M#27-12-1 (W-L-D)#KING#1.78#Fontana, California, USA#1986-09-09#38#5'10#155.0 lbs#2008-10-11#9 KO wins#16 Decision wins#2 Submission wins
+17#Jim Miller#LIGHTWEIGHT#M#32-16-0 (W-L-D)#A-10#1.73#Sparta Township, New Jersey, USA#1983-08-30#41#5'8#155.0 lbs#2005-11-19#4 KO wins#21 Decision wins#7 Submission wins

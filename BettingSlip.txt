@@ -1,0 +1,42 @@
+Fighter Details:
+Name: Dricus Du Plessis	Odds: 1.85
+Record: 21-2-0 (W-L-D)
+Date of birth: 1994-01-14
+Age : 30
+Nationality: Pretoria, South Africa
+
+Fighter Details:
+Name: Kai Kara-France	Odds: 1.65
+Record: 24-11-0 (W-L-D)
+Date of birth: 1993-03-26
+Age : 31
+Nationality: Auckland, New Zealand
+
+Fighter Details:
+Name: Dan Hooker	Odds: 1.83
+Record: 23-12-0 (W-L-D)
+Date of birth: 1990-02-13
+Age : 34
+Nationality: Auckland, New Zealand
+
+Fighter Details:
+Name: Jairzinho Rozenstruik	Odds: 1.88
+Record: 14-5-0 (W-L-D)
+Date of birth: 1988-03-17
+Age : 36
+Nationality: Paramaribo, Suriname
+
+Fighter Details:
+Name: Luana Santos	Odds: 1.68
+Record: 8-1-0 (W-L-D)
+Date of birth: 1998-03-12
+Age : 26
+Nationality: Rio de Janeiro, Brazil
+
+Fighter Details:
+Name: Carlos Prates	Odds: 1.8
+Record: 19-6-0 (W-L-D)
+Date of birth: 1990-04-15
+Age : 34
+Nationality: São Paulo, Brazil
+

@@ -1,9 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package GutPickMMA;
-//package ntlanganiso.sa;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -17,34 +13,60 @@ import java.util.ArrayList;
 import java.nio.file.*;
 import java.nio.file.attribute.*;
 import java.io.IOException;
-
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.Properties;
+import java.io.FileInputStream;
+import java.util.HashSet;
+import java.util.Set;
 
 public class GutPicks extends javax.swing.JFrame {
 
-    private ArrayList<RosterMetrics> ufcRoster = new ArrayList<>();
+    private ArrayList<RosterMetrics> ufcRoster = new ArrayList<RosterMetrics>();
+    private Set<String> appendedFighterDetails = new HashSet<>();
     private ArrayList<String> token = new ArrayList<String>();
+    private Set<JButton> alreadyClicked = new HashSet();
     private JButton[] buttons = new JButton[22];
     private JButton[] oddsButtons = new JButton[22];
     private boolean[] buttonClicked = new boolean[22]; 
     private double oddsReference = 0.0;
     private double wagerReference = 0.0;
     private double potentialWinReference = 0.0;
+    private static int toggleCount = 0;
+    private static MMADatabase mmaDb;
     
     public GutPicks() {
-        
         initComponents();
         showFights = new JButton("Show Fights");
+        loadConfig(); // Ensure mmaDb is initialized before calling loadData
         loadData();
         setupButtonListeners();
-        
+    }
+    private void loadConfig() {
+        try (InputStream input = getClass().getClassLoader().getResourceAsStream("config.properties.txt")) {
+            Properties prop = new Properties();
+            if (input == null) {
+                System.out.println("Sorry, unable to find config.properties");
+                return;
+            }
+            prop.load(input);
+            String url = prop.getProperty("db.url");
+            String username = prop.getProperty("db.username");
+            String password = prop.getProperty("db.password");
+            mmaDb = new MMADatabase(username,password,url);
+            System.out.println("Database iinstantiated successfully");
+        }catch (IOException ex) {
+            ex.printStackTrace();
+        }
     }
     private synchronized void loadData() {
-    try (BufferedReader br = new BufferedReader(new FileReader("UFCRosterStats305.txt"))) {
+    try (BufferedReader br = new BufferedReader(new FileReader("UFCRosterStats.txt"))) {
         String line;
         while ((line = br.readLine()) != null) {
             String[] parts = line.split("#");
             if (parts.length >= 16) {
                 RosterMetrics fighter = new RosterMetrics(
+                    
                     Integer.parseInt(parts[0]), // Ranking
                     parts[1], // Name
                     parts[2], // weightclass
@@ -52,7 +74,7 @@ public class GutPicks extends javax.swing.JFrame {
                     parts[4], // record
                     parts[5], // nickname
                     Double.parseDouble(parts[6]), // odds
-                    parts[7], // nastionality
+                    parts[7], // nationality
                     parts[8], // birthYear
                     Integer.parseInt(parts[9]), // age
                     parts[10], // height
@@ -63,9 +85,15 @@ public class GutPicks extends javax.swing.JFrame {
                     parts[15] // Submissions
                 );
                 ufcRoster.add(fighter);
+                
+                // populating the database
+                String sql = "INSERT INTO FIGHTERS(ranking, fighterName, weightDivison, record, nickName, odds, nationality, DOB, age, height, weight, debute, winsViaKO, winsViaDec, winsViaSub) \n" +
+"VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                if(mmaDb.addFighter(fighter, sql)){
+                    System.out.println("New figher add successfully.");
+                }
             }
-        }
-        
+        }       
             btnForfighter1.setText("loading..");
             btnForfighter2.setText("loading...");
             btnForfighter2.setText("Loading...");
@@ -127,14 +155,22 @@ public class GutPicks extends javax.swing.JFrame {
             btnForfighter16, btnForfighter17, btnForfighter18, btnForfighter19, btnForfighter20,
             btnForfighter21, btnForfighter22
         };
-        
+         
         for (int i = 0; i < buttons.length; i++) {
             final int index = i;
             buttons[i].addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
 
                     toggleFighterSelection(index);
-                    buttons[index].setBackground(Color.green);
+                    alreadyClicked.add(buttons[index]);
+                    toggleCount++;
+                    if(toggleCount == 1 ){
+                        buttons[index].setBackground(Color.green);
+                        
+                    }else if(alreadyClicked.contains(buttons[index]) && toggleCount > 1 ){
+                       buttons[index].setBackground(Color.LIGHT_GRAY);
+                       toggleCount = 0;
+                    }
                     updateTextArea(index);
                     totalOddsActionPerformed(e);
                 }
@@ -142,28 +178,36 @@ public class GutPicks extends javax.swing.JFrame {
         }
     }
     private synchronized void updateTextArea(int index) {
-         if (index >= ufcRoster.size()) {
+        if (index >= ufcRoster.size()) {
             jTextArea1.append("Fighter data unavailable.\n\n");
             return;
         }
         RosterMetrics fighter = ufcRoster.get(index);
-        jTextArea1.append("Fighter Details:\n");
-        jTextArea1.append("Name: " + fighter.getFighterName() + "\t");
-        jTextArea1.append("Odds: " + fighter.getOdds() + "\n");
-        jTextArea1.append("Record: " + fighter.getFighterRecord() + "\n");
-        jTextArea1.append("Date of birth: " + fighter.getDateOfBirth()+ "\n");
-        jTextArea1.append("Age : "+ fighter.getAge() +"\n");
-        jTextArea1.append("Nationality: " + fighter.getPlaceOfBirth() + "\n\n");
-        
-        try{
-            if(!jTextArea1.toString().isEmpty()){
-                String str = jTextArea1.getText().toString();
+        String fighterDetails = "Fighter Details:\n" +
+                                "Name: " + fighter.getFighterName() + "\t" +
+                                "Odds: " + fighter.getOdds() + "\n" +
+                                "Record: " + fighter.getFighterRecord() + "\n" +
+                                "Date of birth: " + fighter.getDateOfBirth() + "\n" +
+                                "Age : " + fighter.getAge() + "\n" +
+                                "Nationality: " + fighter.getPlaceOfBirth() + "\n\n";
+
+        // Check if the fighter details are already appended
+        if (!appendedFighterDetails.contains(fighterDetails)) {
+            jTextArea1.append(fighterDetails);
+            appendedFighterDetails.add(fighterDetails);
+        } else {
+            System.out.println("Fighter details already added.");
+        }
+
+        try {
+            // Tokenize the string if it's not empty
+            if (!jTextArea1.getText().isEmpty()) {
+                String str = jTextArea1.getText();
                 ArrayList<String> chunk = tokenization(str);
-            } 
-        }catch(StringIndexOutOfBoundsException e){
+            }
+        } catch (StringIndexOutOfBoundsException e) {
             e.printStackTrace();
-        }   
-        //removeduplicateSelections(str,chunk);
+        }
     }
     public ArrayList<String> tokenization(String str) {
         ArrayList<String> tokens = new ArrayList<>();
@@ -1179,8 +1223,7 @@ public class GutPicks extends javax.swing.JFrame {
     }//GEN-LAST:event_btnclearActionPerformed
 
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
-         File file = new File("BettingSlip.txt");
-        
+        File file = new File("BettingSlip.txt");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
             writer.write(jTextArea1.getText());
             JOptionPane.showMessageDialog(this, "File was saved successfully to " + file.getAbsolutePath());
@@ -1191,7 +1234,6 @@ public class GutPicks extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
        try {
-        
         String oddsText = totalOdds.getText();
         double totalOdds = Double.parseDouble(oddsText);
         potentialWinReference = wagerReference * totalOdds; 

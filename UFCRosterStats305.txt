@@ -1,24 +1,24 @@
-1#Dricus Du Plessis#MiddleW (Worldwide)#M#21-2-0 (W-L-D)#Still knocks#1.85#Pretoria, South Africa#1994-01-14#30#6'1#185.0 lbs#2015-06-20#10 KO wins#8 Decision wins#3 Submission wins
-3#Israel Adesanya#MiddleW (Worldwide)#M#24-3-0 (W-L-D)#STYLEBENDER#1.93#Lagos, Nigeria#1989-07-22#35#6'4#185.0 lbs#2012-03-31#15 KO wins#8 Decision wins#1 Submission win
-5#Kai Kara-France#FlyW (Worldwide)#M#24-11-0 (W-L-D)#DON'T BLINK#1.65#Auckland, New Zealand#1993-03-26#31#5'4#125.0 lbs#2010-06-12#10 KO wins#12 Decision wins#2 Submission wins
-7#Steve Erceg#FlyW (Worldwide)#M#12-2-0 (W-L-D)#STEVE#1.70#Perth, Australia#1992-05-14#32#5'7#125.0 lbs#2014-08-02#5 KO wins#6 Decision wins#1 Submission win
-4#Mateusz Gamrot#LightW (Worldwide)#M#24-2-0 (W-L-D)#GAMROT#1.78#Poznań, Poland#1990-12-11#33#5'10#155.0 lbs#2012-05-05#7 KO wins#15 Decision wins#2 Submission wins
-13#Dan Hooker#LightW (Worldwide)#M#23-12-0 (W-L-D)#THE HANGMAN#1.83#Auckland, New Zealand#1990-02-13#34#6'0#155.0 lbs#2009-10-03#11 KO wins#10 Decision wins#2 Submission wins
-12#Tai Tuivasa#HeavyW (Worldwide)#M#14-7-0 (W-L-D)#BAM BAM#1.88#Sydney, Australia#1993-03-16#31#6'2#265.0 lbs#2012-12-08#13 KO wins#1 Decision win#0 Submission wins
-11#Jairzinho Rozenstruik#HeavyW (Worldwide)#M#14-5-0 (W-L-D)#Bigi Boy#1.88#Paramaribo, Suriname#1988-03-17#36#6'2#265.0 lbs#2012-05-26#13 KO wins#1 Decision win#0 Submission wins
-43#Jingliang Li#WelterW (Worldwide)#M#19-8-0 (W-L-D)#THE LEECH#1.83#Xinjiang, China#1988-03-20#36#6'0#170.0 lbs#2009-06-13#10 KO wins#8 Decision wins#1 Submission win
-33#Carlos Prates#WelterW (Worldwide)#M#19-6-0 (W-L-D)#PRATES#1.80#São Paulo, Brazil#1990-04-15#34#5'11#170.0 lbs#2010-08-21#8 KO wins#10 Decision wins#1 Submission win
-51#Junior Tafa#HeavyW (Worldwide)#M#5-2-0 (W-L-D)#TAFA#1.93#Brisbane, Australia#1996-09-20#27#6'4#265.0 lbs#2018-06-15#4 KO wins#1 Decision win#0 Submission wins
-74#Valter Walker#HeavyW (Worldwide)#M#11-1-0 (W-L-D)#WALKER#1.88#Rio de Janeiro, Brazil#1992-11-25#31#6'2#265.0 lbs#2014-09-10#7 KO wins#3 Decision wins#1 Submission win
-41#Josh Culibao#FeatherW (Worldwide)#M#11-3-1 (W-L-D)#CULIBAO#1.80#Sydney, Australia#1994-05-23#30#5'11#145.0 lbs#2014-08-02#5 KO wins#5 Decision wins#1 Submission win
-51#Ricardo Ramos#FeatherW (Worldwide)#M#16-6-0 (W-L-D)#RAMOS#1.75#Campinas, Brazil#1995-08-01#29#5'9#145.0 lbs#2013-05-18#6 KO wins#9 Decision wins#1 Submission win
-18#Casey O'Neill#FlyW (Worldwide)#F#9-2-0 (W-L-D)#KING#1.70#Gold Coast, Australia#1997-10-07#26#5'7#125.0 lbs#2019-06-15#3 KO wins#5 Decision wins#1 Submission win
-32#Luana Santos#FlyW (Worldwide)#F#8-1-0 (W-L-D)#LUANA#1.68#Rio de Janeiro, Brazil#1998-03-12#26#5'6#125.0 lbs#2018-09-22#4 KO wins#3 Decision wins#1 Submission win
-68#Jack Jenkins#FeatherW (Worldwide)#M#12-3-0 (W-L-D)#JENKINS#1.78#Melbourne, Australia#1993-05-15#31#5'10#145.0 lbs#2015-08-01#6 KO wins#5 Decision wins#1 Submission win
-64#Herbert Burns#FeatherW (Worldwide)#M#11-5-0 (W-L-D)#BURNS#1.75#Niterói, Brazil#1988-02-02#36#5'9#145.0 lbs#2012-06-15#4 KO wins#6 Decision wins#1 Submission win
-201#Alex Reyes#LightW (Worldwide)#M#13-4-0 (W-L-D)#REYES#1.78#San Bernardino, California, USA#1987-09-15#36#5'10#155.0 lbs#2010-04-10#6 KO wins#6 Decision wins#1 Submission win
-53#Kenan Song#WelterW (Worldwide)#M#21-8-0 (W-L-D)#SONG#1.83#Tianjin, China#1990-03-10#34#6'0#170.0 lbs#2012-06-15#10 KO wins#10 Decision wins#1 Submission win
-104#Ricky Glenn#LightW (Worldwide)#M#22-8-2 (W-L-D)#GLENN#1.80#Marshalltown, Iowa, USA#1989-04-12#35#5'11#155.0 lbs#2009-05-15#8 KO wins#12 Decision wins#2 Submission wins
-8#Stewart Nicoll#FlyW (Australia & NZ)#M#8-0-0 (W-L-D)#STEWART#1.70#Auckland, New Zealand#1995-04-15#29#5'7#125.0 lbs#2015-06-10#5 KO wins#2 Decision wins#1 Submission win
-36#Jesus Aguilar#FlyW (Worldwide)#M#10-2-0 (W-L-D)#AGUILAR#1.68#Mexico City, Mexico#1993-08-25#31#5'6#125.0 lbs#2013-09-15#4 KO wins#5 Decision wins#1 Submission win
+1#Dricus Du Plessis#MiddleWeight (Worldwide)#M#21-2-0 (W-L-D)#Still knocks#1.85#Pretoria, South Africa#1994-01-14#30#6'1#185.0 lbs#2015-06-20#10 KO wins#8 Decision wins#3 Submission wins
+3#Israel Adesanya#MiddleWeight (Worldwide)#M#24-3-0 (W-L-D)#STYLEBENDER#1.93#Lagos, Nigeria#1989-07-22#35#6'4#185.0 lbs#2012-03-31#15 KO wins#8 Decision wins#1 Submission win
+5#Kai Kara-France#FlyWeight (Worldwide)#M#24-11-0 (W-L-D)#DON'T BLINK#1.65#Auckland, New Zealand#1993-03-26#31#5'4#125.0 lbs#2010-06-12#10 KO wins#12 Decision wins#2 Submission wins
+7#Steve Erceg#FlyWeight (Worldwide)#M#12-2-0 (W-L-D)#STEVE#1.70#Perth, Australia#1992-05-14#32#5'7#125.0 lbs#2014-08-02#5 KO wins#6 Decision wins#1 Submission win
+4#Mateusz Gamrot#LightWeight (Worldwide)#M#24-2-0 (W-L-D)#GAMROT#1.78#Poznań, Poland#1990-12-11#33#5'10#155.0 lbs#2012-05-05#7 KO wins#15 Decision wins#2 Submission wins
+13#Dan Hooker#LightWeight (Worldwide)#M#23-12-0 (W-L-D)#THE HANGMAN#1.83#Auckland, New Zealand#1990-02-13#34#6'0#155.0 lbs#2009-10-03#11 KO wins#10 Decision wins#2 Submission wins
+12#Tai Tuivasa#HeavyWeight (Worldwide)#M#14-7-0 (W-L-D)#BAM BAM#1.88#Sydney, Australia#1993-03-16#31#6'2#265.0 lbs#2012-12-08#13 KO wins#1 Decision win#0 Submission wins
+11#Jairzinho Rozenstruik#HeavyWeight (Worldwide)#M#14-5-0 (W-L-D)#Bigi Boy#1.88#Paramaribo, Suriname#1988-03-17#36#6'2#265.0 lbs#2012-05-26#13 KO wins#1 Decision win#0 Submission wins
+43#Jingliang Li#WelterWeight (Worldwide)#M#19-8-0 (W-L-D)#THE LEECH#1.83#Xinjiang, China#1988-03-20#36#6'0#170.0 lbs#2009-06-13#10 KO wins#8 Decision wins#1 Submission win
+33#Carlos Prates#WelterWeight (Worldwide)#M#19-6-0 (W-L-D)#PRATES#1.80#São Paulo, Brazil#1990-04-15#34#5'11#170.0 lbs#2010-08-21#8 KO wins#10 Decision wins#1 Submission win
+51#Junior Tafa#HeavyWeight (Worldwide)#M#5-2-0 (W-L-D)#TAFA#1.93#Brisbane, Australia#1996-09-20#27#6'4#265.0 lbs#2018-06-15#4 KO wins#1 Decision win#0 Submission wins
+74#Valter Walker#HeavyWeight (Worldwide)#M#11-1-0 (W-L-D)#WALKER#1.88#Rio de Janeiro, Brazil#1992-11-25#31#6'2#265.0 lbs#2014-09-10#7 KO wins#3 Decision wins#1 Submission win
+41#Josh Culibao#FeatherWeight (Worldwide)#M#11-3-1 (W-L-D)#CULIBAO#1.80#Sydney, Australia#1994-05-23#30#5'11#145.0 lbs#2014-08-02#5 KO wins#5 Decision wins#1 Submission win
+51#Ricardo Ramos#FeatherWeight (Worldwide)#M#16-6-0 (W-L-D)#RAMOS#1.75#Campinas, Brazil#1995-08-01#29#5'9#145.0 lbs#2013-05-18#6 KO wins#9 Decision wins#1 Submission win
+18#Casey O'Neill#FlyWeight (Worldwide)#F#9-2-0 (W-L-D)#KING#1.70#Gold Coast, Australia#1997-10-07#26#5'7#125.0 lbs#2019-06-15#3 KO wins#5 Decision wins#1 Submission win
+32#Luana Santos#FlyWeight (Worldwide)#F#8-1-0 (W-L-D)#LUANA#1.68#Rio de Janeiro, Brazil#1998-03-12#26#5'6#125.0 lbs#2018-09-22#4 KO wins#3 Decision wins#1 Submission win
+68#Jack Jenkins#FeatherWeight (Worldwide)#M#12-3-0 (W-L-D)#JENKINS#1.78#Melbourne, Australia#1993-05-15#31#5'10#145.0 lbs#2015-08-01#6 KO wins#5 Decision wins#1 Submission win
+64#Herbert Burns#FeatherWeight (Worldwide)#M#11-5-0 (W-L-D)#BURNS#1.75#Niterói, Brazil#1988-02-02#36#5'9#145.0 lbs#2012-06-15#4 KO wins#6 Decision wins#1 Submission win
+201#Alex Reyes#LightWeight (Worldwide)#M#13-4-0 (W-L-D)#REYES#1.78#San Bernardino, California, USA#1987-09-15#36#5'10#155.0 lbs#2010-04-10#6 KO wins#6 Decision wins#1 Submission win
+53#Kenan Song#WelterWeight (Worldwide)#M#21-8-0 (W-L-D)#SONG#1.83#Tianjin, China#1990-03-10#34#6'0#170.0 lbs#2012-06-15#10 KO wins#10 Decision wins#1 Submission win
+104#Ricky Glenn#LightWeight (Worldwide)#M#22-8-2 (W-L-D)#GLENN#1.80#Marshalltown, Iowa, USA#1989-04-12#35#5'11#155.0 lbs#2009-05-15#8 KO wins#12 Decision wins#2 Submission wins
+8#Stewart Nicoll#FlyWeight (Australia & NZ)#M#8-0-0 (W-L-D)#STEWART#1.70#Auckland, New Zealand#1995-04-15#29#5'7#125.0 lbs#2015-06-10#5 KO wins#2 Decision wins#1 Submission win
+36#Jesus Aguilar#FlyWeight (Worldwide)#M#10-2-0 (W-L-D)#AGUILAR#1.68#Mexico City, Mexico#1993-08-25#31#5'6#125.0 lbs#2013-09-15#4 KO wins#5 Decision wins#1 Submission win
 

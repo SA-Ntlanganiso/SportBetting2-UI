@@ -3,13 +3,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package GutPickMMA;
-//package Ntanganiso.sa;
+
 /**
  *
  * @author asina
  */
 class RosterMetrics {
     
+    private Integer ufcAtleteID;
     private int ranking;
     private String fighterName;
     private String weightDivision;
@@ -27,6 +28,10 @@ class RosterMetrics {
     private String winsViaDecision;
     private String winsViaSubmission;
 
+    public RosterMetrics() {
+    }
+    
+    
     public RosterMetrics(int ranking, String fighterName, String weightDivision,
             char fighterGender, String fighterRecord, String nickName,
             double odds, String placeOfBirth, String dateOfBirth,
@@ -50,7 +55,27 @@ class RosterMetrics {
         this.winsViaDecision = winsViaDecision;
         this.winsViaSubmission = winsViaSubmission;
     }
+    public RosterMetrics(int ranking, String fighterName, String weightDivision, String fighterRecord, String nickName,
+            double odds, String placeOfBirth, String dateOfBirth,
+            int age, String height, String weight, String debut,
+            String winsViaKO, String winsViaDecision, String winsViaSubmission) {
 
+        this.ranking = ranking;
+        this.fighterName = fighterName;
+        this.weightDivision = weightDivision;
+        this.fighterRecord = fighterRecord;
+        this.nickName = nickName;
+        this.odds = odds;
+        this.placeOfBirth = placeOfBirth;
+        this.dateOfBirth = dateOfBirth;
+        this.age = age;
+        this.height = height;
+        this.weight = weight;
+        this.debut = debut;
+        this.winsViaKO = winsViaKO;
+        this.winsViaDecision = winsViaDecision;
+        this.winsViaSubmission = winsViaSubmission;
+    }
     
 
         public int getRanking() {
@@ -207,3 +232,6 @@ class RosterMetrics {
     }
     
 }
+
+
+

@@ -20,11 +20,32 @@ Age : 34
 Nationality: Auckland, New Zealand
 
 Fighter Details:
-Name: Jairzinho Rozenstruik	Odds: 1.88
-Record: 14-5-0 (W-L-D)
-Date of birth: 1988-03-17
-Age : 36
-Nationality: Paramaribo, Suriname
+Name: Tai Tuivasa	Odds: 1.88
+Record: 14-7-0 (W-L-D)
+Date of birth: 1993-03-16
+Age : 31
+Nationality: Sydney, Australia
+
+Fighter Details:
+Name: Carlos Prates	Odds: 1.8
+Record: 19-6-0 (W-L-D)
+Date of birth: 1990-04-15
+Age : 34
+Nationality: São Paulo, Brazil
+
+Fighter Details:
+Name: Valter Walker	Odds: 1.88
+Record: 11-1-0 (W-L-D)
+Date of birth: 1992-11-25
+Age : 31
+Nationality: Rio de Janeiro, Brazil
+
+Fighter Details:
+Name: Josh Culibao	Odds: 1.8
+Record: 11-3-1 (W-L-D)
+Date of birth: 1994-05-23
+Age : 30
+Nationality: Sydney, Australia
 
 Fighter Details:
 Name: Luana Santos	Odds: 1.68
@@ -34,9 +55,23 @@ Age : 26
 Nationality: Rio de Janeiro, Brazil
 
 Fighter Details:
-Name: Carlos Prates	Odds: 1.8
-Record: 19-6-0 (W-L-D)
-Date of birth: 1990-04-15
-Age : 34
-Nationality: São Paulo, Brazil
+Name: Alex Reyes	Odds: 1.78
+Record: 13-4-0 (W-L-D)
+Date of birth: 1987-09-15
+Age : 36
+Nationality: San Bernardino, California, USA
+
+Fighter Details:
+Name: Jack Jenkins	Odds: 1.78
+Record: 12-3-0 (W-L-D)
+Date of birth: 1993-05-15
+Age : 31
+Nationality: Melbourne, Australia
+
+Fighter Details:
+Name: Stewart Nicoll	Odds: 1.7
+Record: 8-0-0 (W-L-D)
+Date of birth: 1995-04-15
+Age : 29
+Nationality: Auckland, New Zealand
 

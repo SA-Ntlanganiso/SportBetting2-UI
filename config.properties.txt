@@ -1,0 +1,3 @@
+db.url=jdbc:derby://localhost:1527/UFCdatabase
+db.username=ufc
+db.password=danawhite

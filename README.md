@@ -1,12 +1,23 @@
 # 🥊 SportBetting-UI
 
 A Java-based Sports Betting GUI application with robust features for MMA/UFC fight predictions and betting slip management.
-![UFC Logo](https://media.giphy.com/media/3oEjI789af0AVurF60/giphy.gif)
-![UFC Fight](https://media.giphy.com/media/l0IydBcVZ6lD4vwhO/giphy.gif)
-![UFC Fighter](https://media.giphy.com/media/l0Iyl55kTeh71nTXy/giphy.gif)
-![Charles Oliveira Sport GIF by UFC](https://media.giphy.com/media/3o7TKF1fSIs1R19B8k/giphy.gif)
-![Charles Oliveira](https://media.giphy.com/media/YPygjQCNvBeOKKuClJ/giphy.gif)
-![UFC Fight](https://media.giphy.com/media/l0IydBcVZ6lD4vwhO/giphy.gif)
+
+![Alex Pereira UFC](https://media.giphy.com/media/pu9a1N1ePf4M6pzAsv/giphy.gif)
+
+> *Experience the thrill of UFC betting with real-time odds and fighter statistics*
+
+---
+
+## 🎯 Featured Fighters in App
+
+<div align="center">
+
+| Alex Pereira | Charles Oliveira | Zhang Weili |
+|:---:|:---:|:---:|
+| ![Pereira](https://media.giphy.com/media/G4u0EILLmEG8vexxgG/giphy.gif) | ![Oliveira](https://media.giphy.com/media/ojgCUHr9TIzSWwAWlY/giphy.gif) | ![Zhang](https://media.giphy.com/media/pu9a1N1ePf4M6pzAsv/giphy.gif) |
+| **POATAN** | **DO BRONX** | **MAGNUM** |
+
+</div>
 
 ---
 

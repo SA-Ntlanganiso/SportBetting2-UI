@@ -1,8 +1,12 @@
 # 🥊 SportBetting-UI
 
 A Java-based Sports Betting GUI application with robust features for MMA/UFC fight predictions and betting slip management.
-
+![UFC Logo](https://media.giphy.com/media/3oEjI789af0AVurF60/giphy.gif)
+![UFC Fight](https://media.giphy.com/media/l0IydBcVZ6lD4vwhO/giphy.gif)
+![UFC Fighter](https://media.giphy.com/media/l0Iyl55kTeh71nTXy/giphy.gif)
 ![Charles Oliveira Sport GIF by UFC](https://media.giphy.com/media/3o7TKF1fSIs1R19B8k/giphy.gif)
+![Charles Oliveira](https://media.giphy.com/media/YPygjQCNvBeOKKuClJ/giphy.gif)
+![UFC Fight](https://media.giphy.com/media/l0IydBcVZ6lD4vwhO/giphy.gif)
 
 ---
 

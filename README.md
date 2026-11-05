@@ -1,226 +1,217 @@
-# SportBetting-UI --- GutPICKS.bet
 
-A Java Swing desktop application that simulates an MMA/UFC
-sports-betting experience. Users can browse fighter information, select
-fighters from available match-ups, build a betting slip, and calculate
-potential returns from the odds stored with the fighter data.
+# 🥊 SportBetting-UI — GutPICKS.bet
 
-> **Project type:** Educational portfolio project\
-> **Status:** Desktop application / simulation\
-> **Important:** The current version loads fighter and odds data from a
-> local text file. It does not provide verified live bookmaker odds or
-> place real-money bets.
+A Java Swing desktop application simulating an MMA/UFC sports-betting platform. Browse fighter profiles, explore configured match-ups, select fight outcomes and manage betting slips with automatic odds and potential-return calculations.
 
-![Alex Pereira
-UFC](https://media.giphy.com/media/pu9a1N1ePf4M6pzAsv/giphy.gif)
+> **Project:** Educational portfolio project  
+> **Language:** Java  
+> **Interface:** Java Swing  
+> **Database:** Apache Derby
 
-------------------------------------------------------------------------
+---
 
-## Featured fighters
+## 🥊 Featured UFC Fighters
 
-The interface showcases MMA fighters including:
+<table>
+  <tr>
+    <th align="center">Alex Pereira</th>
+    <th align="center">Charles Oliveira</th>
+    <th align="center">Zhang Weili</th>
+    <th align="center">Conor McGregor</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://giphy.com/gifs/ufc-alex-pereira-kGxLW81gjIteWQJYKJ">
+        <img src="https://media.giphy.com/media/kGxLW81gjIteWQJYKJ/giphy.gif" width="220" height="124" alt="Alex Pereira UFC GIF"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://giphy.com/gifs/ufc-sports-mma-ufc-269-9XPpZjsTPQXMY84bZ7">
+        <img src="https://media.giphy.com/media/9XPpZjsTPQXMY84bZ7/giphy.gif" width="220" height="124" alt="Charles Oliveira UFC GIF"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://giphy.com/gifs/ufc-sports-sport-ufc-281-mma-tMcCEG931Vk6DcS6AI">
+        <img src="https://media.giphy.com/media/tMcCEG931Vk6DcS6AI/giphy.gif" width="220" height="124" alt="Zhang Weili UFC GIF"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://giphy.com/gifs/ufc-sports-sport-mma-vAGq7eYHmYJu3s9zUS">
+        <img src="https://media.giphy.com/media/vAGq7eYHmYJu3s9zUS/giphy.gif" width="220" height="124" alt="Conor McGregor UFC GIF"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>POATAN</b></td>
+    <td align="center"><b>DO BRONX</b></td>
+    <td align="center"><b>MAGNUM</b></td>
+    <td align="center"><b>THE NOTORIOUS</b></td>
+  </tr>
+</table>
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                               Alex Pereira                                                         Charles Oliveira                                                         Zhang Weili
-  ---------------------------------------------------------------------- ----------------------------------------------------------------------- --------------------------------------------------------------------
-                                  ![Alex                                                                ![Charles                                                              ![Zhang
-   Pereira](https://media.giphy.com/media/G4u0EILLmEG8vexxgG/giphy.gif)   Oliveira](https://media.giphy.com/media/ojgCUHr9TIzSWwAWlY/giphy.gif)   Weili](https://media.giphy.com/media/pu9a1N1ePf4M6pzAsv/giphy.gif)
+*Each fighter has a separate GIF source. These are featured fighter profiles, not a claim that they are competing against one another.*
 
-                                **POATAN**                                                            **DO BRONX**                                                            **MAGNUM**
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-These are featured fighter profiles, not a claim that the three fighters
-are opponents in the same bout. Match-ups displayed by the application
-are determined by the records in `UFCRosterStats.txt`.
+## 🎯 Overview
 
-------------------------------------------------------------------------
+**GutPICKS.bet** is a Java-based desktop application that simulates an MMA/UFC betting experience.
 
-## Overview
+The application reads fighter information from a local text file, displays configured match-ups and odds, and allows users to create betting slips with automatic calculations of combined odds and potential returns.
 
-**GutPICKS.bet** is a desktop application built in Java to demonstrate
-the core flow of an MMA betting interface. It reads fighter records from
-a local text file, displays available match-ups and their configured
-odds, and lets a user select fighters to create a betting slip.
+The project demonstrates Java GUI development, object-oriented programming, database connectivity and file processing.
 
-The application calculates combined parlay odds and estimated returns
-from the selected odds and entered stake. It also demonstrates database
-connectivity, file handling, object-oriented design and desktop GUI
-development.
+## ✨ Key Features
 
-## Key features
+### 🎮 Fight Selection
+- 22 fighter buttons across 11 configured match-ups.
+- Interactive fighter selection.
+- Green visual feedback for selected fighters.
+- Color-coded odds display.
+- Fighter profiles and statistics.
 
-### Fight and fighter selection
+### 💰 Betting Slip Management
+- Automatic combined parlay odds calculation.
+- Custom wager input.
+- Potential winnings calculation.
+- Save betting slips to text files.
+- Clear selections and start again.
 
--   Displays 22 fighter-selection buttons across 11 configured
-    match-ups.
--   Allows a user to select fighters and provides visual feedback for
-    selections.
--   Displays fighter information such as name, nickname, record,
-    nationality, weight division and other roster fields.
--   Shows the odds stored in the local fighter data.
+### 📊 Fighter Statistics
 
-### Betting slip simulation
+The application supports displaying:
 
--   Builds a betting slip from selected fighters.
--   Calculates combined parlay odds from the selected odds.
--   Accepts a user-entered stake and calculates estimated potential
-    returns.
--   Saves the betting slip to a text file.
--   Provides a clear/reset action to remove selections.
+- Fighter name and nickname.
+- Fight record (W-L-D).
+- Betting odds.
+- Date of birth and age.
+- Nationality.
+- Weight division.
+- Height and weight.
+- Knockout, decision and submission wins.
 
-### Fighter data and database
+### 🗄️ Database Integration
+- Apache Derby database.
+- JDBC connectivity.
+- Fighter record insertion.
+- Prepared statements for database operations.
+- External database configuration.
 
--   Loads roster information from `UFCRosterStats.txt`.
--   Uses an Apache Derby database through JDBC for fighter data
-    persistence.
--   Includes an operation to add fighter records to the database.
--   Uses prepared statements for database inserts.
+---
 
-------------------------------------------------------------------------
+## 🏗️ Technical Architecture
 
-## Technology stack
-
-  Technology            Use
-  --------------------- ---------------------------------------------------
-  Java                  Application logic and object-oriented programming
-  Java Swing            Desktop graphical user interface
-  Apache Derby          Relational database
-  JDBC                  Database connectivity
-  Java I/O              Reading roster data and saving betting slips
-  Java Properties API   External database configuration
-
-------------------------------------------------------------------------
-
-## Project structure
-
-``` text
+```text
 SportBetting-UI/
+│
 ├── src/
 │   └── GutPickMMA/
-│       ├── GutPicks.java          # Main desktop application and GUI
-│       ├── RosterMetrics.java     # Fighter data model
-│       └── MMADatabase.java       # Derby database operations
+│       ├── GutPicks.java
+│       ├── RosterMetrics.java
+│       └── MMADatabase.java
+│
 ├── assets/
-│   └── charles-oliveira-ufc.gif   # Optional UI image asset
-├── UFCRosterStats.txt             # Local fighter and odds data
-├── config.properties.txt          # Database connection settings
+│   └── charles-oliveira-ufc.gif
+│
+├── UFCRosterStats.txt
+├── config.properties.txt
 └── README.md
 ```
 
-## Architecture and main classes
+### Main Classes
 
-### `GutPicks.java` --- presentation and application flow
+**1. GutPicks.java — Main Application**
+- Java Swing GUI.
+- Fighter selection and event handling.
+- Betting slip management.
+- Odds calculations.
+- File reading and writing.
 
--   Creates the Java Swing interface.
--   Displays fighter-selection controls and betting-slip information.
--   Handles user selections and updates the calculated odds.
--   Reads fighter data and writes saved betting slips.
+**2. RosterMetrics.java — Fighter Data Model**
+- Stores fighter information.
+- Handles fighter attributes.
+- Provides getters and setters.
+- Formats fighter information for display.
 
-### `RosterMetrics.java` --- fighter data model
+**3. MMADatabase.java — Database Layer**
+- Apache Derby connectivity.
+- Fighter record insertion.
+- JDBC prepared statements.
+- Database connection management.
 
--   Represents the fighter information loaded by the application.
--   Holds roster attributes such as ranking, name, division, record,
-    nickname, odds and fight statistics.
--   Provides accessors and formatted display information.
+---
 
-### `MMADatabase.java` --- database access
-
--   Handles the Apache Derby connection.
--   Provides database operations such as adding fighter records.
--   Uses JDBC and prepared statements for parameterised database
-    operations.
-
-------------------------------------------------------------------------
-
-## Getting started
+## 🚀 Setup Instructions
 
 ### Prerequisites
 
--   JDK 8 or later.
--   Apache Derby, configured for the connection mode used by the
-    project.
--   NetBeans or another Java IDE (NetBeans was the recommended
-    development environment).
--   Derby JDBC driver available on the classpath.
+- Java Development Kit (JDK 8 or higher).
+- Apache Derby.
+- NetBeans IDE or another Java IDE.
+- Derby JDBC driver.
 
-### 1. Clone the repository
+### 1. Clone Repository
 
-``` bash
+```bash
 git clone https://github.com/SA-Ntlanganiso/SportBetting-UI.git
+
 cd SportBetting-UI
 ```
 
-### 2. Configure the database
+### 2. Configure Database
 
-Create or update `config.properties.txt` in the project root using the
-property names expected by `MMADatabase.java`. For example:
+Create `config.properties.txt`:
 
-``` properties
+```properties
 db.url=jdbc:derby://localhost:1527/MMADB
 db.username=your_username
 db.password=your_password
 ```
 
-Update the URL and credentials to match your local Derby configuration.
-Do not commit real credentials.
+Use your local Derby database credentials.
 
-### 3. Prepare the fighter roster
+### 3. Prepare Fighter Data
 
-Ensure `UFCRosterStats.txt` is available in the location expected by the
-application. The documented record layout is:
+Ensure `UFCRosterStats.txt` exists.
 
-``` text
+Expected format:
+
+```text
 ranking#name#weightclass#gender#record#nickname#odds#nationality#dob#age#height#weight#debut#ko_wins#dec_wins#sub_wins
 ```
 
-The application uses the roster file as its local data source. Add or
-update fighter records there using the same field order and delimiter.
+### 4. Run Application
 
-### 4. Add the optional GIF asset
+Example compilation command:
 
-If the GUI references the local GIF, place the image in the `assets/`
-directory using the filename expected by the source code.
-
-### 5. Compile and run
-
-The following is an example command-line approach. Adjust the source
-path and Derby JAR filename to match your local project setup.
-
-``` bash
+```bash
 javac -cp ".:derby.jar" src/GutPickMMA/*.java
+
 java -cp ".:derby.jar:src" GutPickMMA.GutPicks
 ```
 
-On Windows, use `;` rather than `:` to separate classpath entries. If
-you use NetBeans, open the project and configure the Derby library
-before running the main class.
+On Windows, replace `:` in the classpath with `;`.
 
-------------------------------------------------------------------------
+---
 
-## How to use the application
+## 📖 Usage Guide
 
-1.  Launch the application.
-2.  Select **Show Fights** to load the available fighter data.
-3.  Review the fighter details and configured odds.
-4.  Select the fighter buttons for the outcomes you want to include.
-5.  Enter a stake in the wager field.
-6.  Select **Cash Out** to calculate the estimated potential return.
-7.  Select **BET** to save the betting slip to `BettingSlip.txt`.
-8.  Select **CLEAR** to reset the current selections.
+1. Launch `GutPicks.java`.
+2. Click **Show Fights**.
+3. Review the available fighters and odds.
+4. Select fighters using the fighter buttons.
+5. Enter your wager amount.
+6. Click **Cash Out** to calculate potential returns.
+7. Click **BET** to save the betting slip.
+8. Click **CLEAR** to reset selections.
 
-This is a local simulation. The displayed odds are read from the
-project's data and are not guaranteed to reflect current market prices.
+---
 
-------------------------------------------------------------------------
+## 🗃️ Database Schema
 
-## Database
+### FIGHTERS Table
 
-The project uses an Apache Derby `FIGHTERS` table to store fighter
-records. The schema below reflects the fields documented for the
-application; confirm the exact column spelling and types against the SQL
-in the source before creating or migrating a database.
-
-``` sql
+```sql
 CREATE TABLE FIGHTERS (
     fighterID INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
     ranking INTEGER,
@@ -241,67 +232,91 @@ CREATE TABLE FIGHTERS (
 );
 ```
 
-------------------------------------------------------------------------
+---
 
-## Engineering concepts demonstrated
+## 🛠️ Technologies Used
 
--   **Object-oriented design:** separates the main GUI, fighter data
-    model and database handler into distinct classes.
--   **Database integration:** connects Java to Apache Derby using JDBC.
--   **Safer SQL operations:** uses prepared statements for parameterised
-    inserts.
--   **File processing:** reads structured fighter records and exports
-    betting slips.
--   **Event-driven GUI programming:** uses Swing controls and action
-    listeners to respond to user interaction.
--   **Collection handling:** uses a `HashSet` to prevent duplicate
-    fighter selections in a betting slip.
--   **Error handling:** uses exception handling and user-facing dialogs
-    for application errors.
+| Technology | Purpose |
+|---|---|
+| Java | Application development |
+| Java Swing | Desktop GUI |
+| Apache Derby | Relational database |
+| JDBC | Database connectivity |
+| Java I/O | File operations |
+| Properties API | Configuration management |
 
-## Current limitations and possible improvements
+---
 
-### Current limitations
+## 💡 Engineering Concepts Demonstrated
 
--   Fighter and odds data are maintained locally in a text file.
--   The application is limited to the match-ups and fighter records
-    configured in its data source.
--   Database setup requires local configuration.
--   There is no verified live odds feed, live event schedule, user
-    account service or real payment processing in the described version.
+**Object-Oriented Programming**
+- Separation of application logic, data models and database operations.
+- Reusable Java classes.
 
-### Potential future enhancements
+**Database Development**
+- JDBC connectivity.
+- Prepared statements.
+- Relational data storage.
 
--   Integrate a licensed sports data provider for current fight cards
-    and odds.
--   Add user accounts and persistent betting-slip history.
--   Add historical statistics and performance visualisations.
--   Improve input validation and automated test coverage.
--   Build a responsive web or mobile client.
--   Add simulated payment flows for demonstration purposes.
+**Event-Driven Programming**
+- Swing action listeners.
+- Interactive fighter selection.
+- Dynamic odds calculations.
 
-------------------------------------------------------------------------
+**File Processing**
+- Reading structured fighter records.
+- Exporting betting slips.
 
-## For reviewers and hiring teams
+**Data Structures**
+- HashSet for duplicate-selection prevention.
 
-This project demonstrates my practical application of Java desktop
-development, object-oriented programming, GUI event handling, relational
-database connectivity and file processing. It also reflects my interest
-in sports technology and building software around domain-specific data
-and user workflows.
+**Error Handling**
+- Exception handling.
+- User-facing error dialogs.
+- Database connection management.
 
-The project is intended as a learning and portfolio demonstration. It
-does not represent a licensed betting product and does not accept
-real-money wagers.
+---
 
-## Repository and contact
+## 🔮 Future Improvements
 
--   **GitHub repository:**
-    https://github.com/SA-Ntlanganiso/SportBetting-UI
--   **GitHub profile:** https://github.com/SA-Ntlanganiso
--   **Portfolio:** https://sa-ntlanganiso.web.app
--   **Email:** asinalo87@gmail.com
+- Live fight-card and odds API integration.
+- Historical fighter performance analytics.
+- User authentication and betting history.
+- Improved automated testing.
+- Web and mobile application versions.
+- Simulated payment processing.
 
-------------------------------------------------------------------------
+---
 
-**Developed by Sinalo Alizwa Ntlanganiso**
+## 👨‍💻 For Hiring Managers
+
+This project demonstrates my practical experience with Java application development, desktop GUI design, relational databases, JDBC, file handling and object-oriented programming.
+
+It also reflects my interest in sports technology and developing software around domain-specific data and user workflows.
+
+The current application is an educational simulation. Fighter information and odds are locally configured; it does not provide verified live bookmaker odds or accept real-money bets.
+
+---
+
+## 📌 Project Information
+
+| Detail | Information |
+|---|---|
+| Project | SportBetting-UI |
+| Application | GutPICKS.bet |
+| Language | Java |
+| Interface | Java Swing |
+| Database | Apache Derby |
+| Category | Sports Technology / Software Development |
+
+## 📫 Contact
+
+**Sinalo Alizwa Ntlanganiso**
+
+- GitHub: https://github.com/SA-Ntlanganiso
+- Portfolio: https://sa-ntlanganiso.web.app
+- Email: asinalo87@gmail.com
+
+---
+
+**Built by Sinalo Alizwa Ntlanganiso**
